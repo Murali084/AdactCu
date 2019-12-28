@@ -1,0 +1,161 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-28T06:33:03.489Z",
+        "line": 18,
+        "name": "Purchase a product from Eddie Bauer site and generate the order ID",
+        "description": "",
+        "id": "purchasing-a-product-from-eddie-bauer-site;purchase-a-product-from-eddie-bauer-site-and-generate-the-order-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User is on Eddie Bauer Home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User clicks on Settings option and clicks sign in and enters \"vivek.msc39@gmail.com\" and \"Clothes@123\" and click on Sign in button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User searches \"shirt\" in search bar",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User nagivates to product list page,selects a product",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User selects the color and \"XL\" and clicks on Add to Bag",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User nagivates to payment page and completes payment",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Order is placed and Order ID is generated",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-28T06:33:03.582Z",
+        "line": 19,
+        "name": "Purchase a product from Eddie Bauer site and generate the order ID",
+        "description": "",
+        "id": "purchasing-a-product-from-eddie-bauer-site;purchase-a-product-from-eddie-bauer-site-and-generate-the-order-id;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User is on Eddie Bauer Home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User clicks on Settings option and clicks sign in and enters \"vivek.msc39@gmail.com\" and \"Clothes@123\" and click on Sign in button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User searches \"jacket\" in search bar",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User nagivates to product list page,selects a product",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User selects the color and \"XL\" and clicks on Add to Bag",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User nagivates to payment page and completes payment",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Order is placed and Order ID is generated",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Purchasing a product from Eddie Bauer site",
+    "description": "",
+    "id": "purchasing-a-product-from-eddie-bauer-site",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/EB.feature",
+    "tags": []
+  }
+]

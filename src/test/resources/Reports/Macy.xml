@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="2" time="0.016991">
+<testcase classname="Purchasing a product from Eddie Bauer site" name="Purchase a product from Eddie Bauer site and generate the order ID" time="0.015099">
+<skipped><![CDATA[Given User is on Eddie Bauer Home page......................................undefined
+When User clicks on Settings option and clicks sign in and enters "vivek.msc39@gmail.com" and "Clothes@123" and click on Sign in button.undefined
+When User searches "shirt" in search bar....................................undefined
+And User nagivates to product list page,selects a product...................undefined
+And User selects the color and "XL" and clicks on Add to Bag................undefined
+When User nagivates to payment page and completes payment...................undefined
+Then Order is placed and Order ID is generated..............................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Purchasing a product from Eddie Bauer site" name="Purchase a product from Eddie Bauer site and generate the order ID 2" time="0.001892">
+<skipped><![CDATA[Given User is on Eddie Bauer Home page......................................undefined
+When User clicks on Settings option and clicks sign in and enters "vivek.msc39@gmail.com" and "Clothes@123" and click on Sign in button.undefined
+When User searches "jacket" in search bar...................................undefined
+And User nagivates to product list page,selects a product...................undefined
+And User selects the color and "XL" and clicks on Add to Bag................undefined
+When User nagivates to payment page and completes payment...................undefined
+Then Order is placed and Order ID is generated..............................undefined
+]]></skipped>
+</testcase>
+</testsuite>
